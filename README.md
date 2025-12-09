@@ -50,7 +50,8 @@ Currently **Senior SRE (VP) at GSR Markets**, working remotely since **2018**, o
 ## 🏦 Industry Experience
 
 ### **Senior Site Reliability Engineer (VP)**  
-**GSR Markets** — Remote  
+**GSR Markets** — Remote
+
 *2018 – Present*
 
 - Lead **reliability & observability** for distributed trading infrastructure
@@ -61,6 +62,7 @@ Currently **Senior SRE (VP) at GSR Markets**, working remotely since **2018**, o
 
 ### **Vice President – CIB Athena Core**  
 **JP Morgan Chase** — Singapore
+
 *Jul 2016 – May 2018*
 
 - Supported Athena Core **risk & pricing platforms for traders**
@@ -69,6 +71,7 @@ Currently **Senior SRE (VP) at GSR Markets**, working remotely since **2018**, o
 
 ### **Senior Systems Engineer**  
 **CME Group** — Singapore
+
 *Aug 2014 – June 2016*
 
 - Administered **10,000+ node** trading infrastructure
@@ -76,7 +79,8 @@ Currently **Senior SRE (VP) at GSR Markets**, working remotely since **2018**, o
 - Automated patching, HW refresh, and virtualization at scale
 
 ### **Cloud Systems Analyst**  
-**Autodesk Asia** — Singapore  
+**Autodesk Asia** — Singapore
+
 *Sep 2013 – Aug 2014*
 
 - Managed **AWS-based production infrastructure** supporting Autodesk A360 and identity services
@@ -88,6 +92,7 @@ Currently **Senior SRE (VP) at GSR Markets**, working remotely since **2018**, o
 
 ### **Principal Engineer / Manager**  
 **Yahoo!** - Bangalore
+
 *Dec 2008 – Aug 2013*
 
 - Operated **8,000+ node AdTech platforms**
@@ -122,7 +127,19 @@ Python • Bash • Ansible • GitOps • CI/CD
 
 **OS & Platforms**  
 Linux (RHEL, Ubuntu) • AIX • HP-UX • VMware • KVM  
+---
 
+## 🎓 Certifications
+
+- **AWS Certified Solutions Architect**
+- **Red Hat Certified Engineer (RHCE)**
+- **Red Hat Certified Virtualization Administrator**
+- **Cloudera Certified Administrator for Apache Hadoop (CCAH)**
+- **IBM Certified Specialist – AIX PSeries Administration**
+- **HP-UX Certified System Administrator**
+- **VERITAS Certified Specialist (VXVM)**
+- **ITIL v3 Foundation**
+- **IPv6 Forum Certified Engineer (Silver)**
 ---
 
 ## 🔗 Connect
