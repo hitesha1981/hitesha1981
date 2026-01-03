@@ -7,7 +7,7 @@ Customizable for profile READMEs.
 Regenerate with -- python3 scripts/generate_terminal_svg.py  
 Author: hitesh.o.agrawal@gmail.com
 """
-
+import calendar
 import datetime
 import html
 from dataclasses import dataclass
@@ -54,13 +54,32 @@ class TerminalSVGGenerator:
         self.body_elements = []
 
     def _get_uptime(self) -> str:
-        """Calculates formatted uptime from a fixed DOB."""
-        dob = datetime.datetime.strptime("1981-12-03", "%Y-%m-%d")
-        diff = datetime.datetime.now() - dob
-        years = diff.days // 365
-        months = (diff.days % 365) // 30
-        days = (diff.days % 365) % 30
-        return f"{years} years, {months} months, {days} days"
+        """Calculates formatted uptime from a fixed DOB."""        
+        dob = datetime.datetime.strptime("03-12-1981", "%d-%m-%Y")
+        now = datetime.datetime.now()
+        
+        years = now.year - dob.year
+        months = now.month - dob.month
+        days = now.day - dob.day
+        
+        if days < 0:
+            months -= 1
+            # Get days in previous month
+            # valid range for month is 1-12
+            prev_month = (now.month - 2) % 12 + 1
+            prev_month_year = now.year if now.month > 1 else now.year - 1
+            _, days_in_prev = calendar.monthrange(prev_month_year, prev_month)
+            days += days_in_prev
+            
+        if months < 0:
+            years -= 1
+            months += 12
+            
+        y_label = "year" if years == 1 else "years"
+        m_label = "month" if months == 1 else "months"
+        d_label = "day" if days == 1 else "days"
+            
+        return f"{years} {y_label}, {months} {m_label}, {days} {d_label}"
 
     def _generate_header(self) -> str:
         """Creates the window decoration and header bar."""
