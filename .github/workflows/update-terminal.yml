@@ -1,0 +1,31 @@
+name: Update Terminal SVG
+
+on:
+  schedule:
+    # Run every day at midnight
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Generate SVG
+        run: |
+          python3 scripts/generate_terminal_svg.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "hitesh"
+          git config --global user.email "hitesha1981@gmail.com"
+          git add assets/terminal.svg
+          git commit -m "Update terminal SVG [skip ci]" || exit 0
+          git push

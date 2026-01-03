@@ -83,7 +83,7 @@ class TerminalSVGGenerator:
     <!-- Title -->
     <text x="{w/2}" y="21" text-anchor="middle" fill="{c["comment"]}" 
         font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="500">
-        hitesh@macbook-pro: ~
+        hitesh@mylinuxhome: ~
     </text>
 '''
 
@@ -180,6 +180,7 @@ class TerminalSVGGenerator:
 """Email: hitesha1981@gmail.com,hitesh.o.agrawal@gmail.com
 telegram: @hitesh_agrawal
 LinkedIn: https://www.linkedin.com/in/agrawalhitesh/"""),
+            ("date", datetime.datetime.now().strftime("%a %b %d %H:%M:%S %Z %Y")),
         ]
 
         # Generate content
