@@ -1,9 +1,5 @@
-<h1 align="center">Hitesh Agrawal</h1>
-<h3 align="center">Principal / Staff Site Reliability & DevOps Engineer</h3>
-
 <p align="center">
-  <b>Previously at:</b>
-  JP Morgan Chase • CME Group • Yahoo! • Autodesk • UBS • IBM • Mahindra Satyam (ex-Satyam)
+  <img src="assets/terminal.svg" width="800px" alt="Terminal Animation">
 </p>
 
 <p align="center">
