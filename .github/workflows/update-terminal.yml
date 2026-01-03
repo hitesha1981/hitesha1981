@@ -25,10 +25,19 @@ jobs:
         run: |
           python3 scripts/generate_terminal_svg.py
 
+      - name: Update README timestamp
+        run: |
+          # Generate timestamp, so that the readme.md fetches the updated svg
+          # This is to avoid browser caching issues - Hitesh Agrawal
+          TIMESTAMP=$(date +%s)
+          # Update README.md (macOS/BSD sed requires empty string for -i)
+          sed -i 's|src="assets/terminal.svg?v=[0-9]*"|src="assets/terminal.svg?v='$TIMESTAMP'"|' README.md || \
+          sed -i 's|src="assets/terminal.svg"|src="assets/terminal.svg?v='$TIMESTAMP'"|' README.md
+
       - name: Commit and push changes
         run: |
           git config --global user.name "Hitesh Agrawal"
           git config --global user.email "hitesha1981@gmail.com"
-          git add assets/terminal.svg
-          git commit -m "Update terminal SVG [skip ci]" || exit 0
+          git add assets/terminal.svg README.md
+          git commit -m "Update terminal SVG & Profile README" || exit 0
           git push
