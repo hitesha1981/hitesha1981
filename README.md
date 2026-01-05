@@ -123,6 +123,7 @@ Python • Bash • Ansible • GitOps • CI/CD
 
 **OS & Platforms**  
 Linux (RHEL, Ubuntu) • AIX • HP-UX • VMware • KVM  
+
 ---
 
 ## 🎓 Certifications
