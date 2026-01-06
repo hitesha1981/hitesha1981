@@ -189,7 +189,7 @@ class TerminalSVGGenerator:
 • Kubernetes at scale (production)
 • Observability-first & SLO-driven
 • Unix/Linux internals & performance"""),
-            ("history | grep 'experience' | head -n 5", 
+            ("history | grep -A 5 'experience'", 
 """2018-Now: Senior SRE (VP) @ GSR Markets
 2016-18 : VP - Athena Core @ JP Morgan
 2014-16 : Sr. Systems Eng @ CME Group
