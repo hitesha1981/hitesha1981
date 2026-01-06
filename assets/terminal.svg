@@ -153,44 +153,44 @@
             width: 0;
             opacity: 0;
             animation: 
-                type_cmd_384 1.9500000000000002s steps(39, end) forwards,
-                cursor_cmd_384 1.9500000000000002s step-end forwards;
+                type_cmd_384 1.6s steps(32, end) forwards,
+                cursor_cmd_384 1.6s step-end forwards;
             animation-delay: 6.749999999999999s;
         }
         @keyframes type_cmd_384 {
             0% { width: 0; opacity: 1; border-right-color: #f8f8f2; }
             99% { border-right-color: #f8f8f2; }
-            100% { width: 331.5px; opacity: 1; border-right-color: transparent; }
+            100% { width: 272.0px; opacity: 1; border-right-color: transparent; }
         }
         
             #out_406 {
                 opacity: 0;
                 animation: fade_in 0.1s ease forwards;
-                animation-delay: 9.1s;
+                animation-delay: 8.75s;
             }
             
             #out_428 {
                 opacity: 0;
                 animation: fade_in 0.1s ease forwards;
-                animation-delay: 9.15s;
+                animation-delay: 8.8s;
             }
             
             #out_450 {
                 opacity: 0;
                 animation: fade_in 0.1s ease forwards;
-                animation-delay: 9.200000000000001s;
+                animation-delay: 8.850000000000001s;
             }
             
             #out_472 {
                 opacity: 0;
                 animation: fade_in 0.1s ease forwards;
-                animation-delay: 9.250000000000002s;
+                animation-delay: 8.900000000000002s;
             }
             
             #out_494 {
                 opacity: 0;
                 animation: fade_in 0.1s ease forwards;
-                animation-delay: 9.300000000000002s;
+                animation-delay: 8.950000000000003s;
             }
             
         #cmd_516 {
@@ -201,7 +201,7 @@
             animation: 
                 type_cmd_516 0.65s steps(13, end) forwards,
                 cursor_cmd_516 0.65s step-end forwards;
-            animation-delay: 9.550000000000002s;
+            animation-delay: 9.200000000000003s;
         }
         @keyframes type_cmd_516 {
             0% { width: 0; opacity: 1; border-right-color: #f8f8f2; }
@@ -212,19 +212,19 @@
             #out_538 {
                 opacity: 0;
                 animation: fade_in 0.1s ease forwards;
-                animation-delay: 10.600000000000003s;
+                animation-delay: 10.250000000000004s;
             }
             
             #out_560 {
                 opacity: 0;
                 animation: fade_in 0.1s ease forwards;
-                animation-delay: 10.650000000000004s;
+                animation-delay: 10.300000000000004s;
             }
             
             #out_582 {
                 opacity: 0;
                 animation: fade_in 0.1s ease forwards;
-                animation-delay: 10.700000000000005s;
+                animation-delay: 10.350000000000005s;
             }
             
         #cmd_604 {
@@ -235,7 +235,7 @@
             animation: 
                 type_cmd_604 0.2s steps(4, end) forwards,
                 cursor_cmd_604 0.2s step-end forwards;
-            animation-delay: 10.950000000000005s;
+            animation-delay: 10.600000000000005s;
         }
         @keyframes type_cmd_604 {
             0% { width: 0; opacity: 1; border-right-color: #f8f8f2; }
@@ -246,7 +246,7 @@
             #out_626 {
                 opacity: 0;
                 animation: fade_in 0.1s ease forwards;
-                animation-delay: 11.550000000000004s;
+                animation-delay: 11.200000000000005s;
             }
             
     </style>
@@ -269,6 +269,6 @@
     </text>
 
     <g transform="translate(0, 0)">
-        <text x="20" y="54" class="code"><tspan fill="#bd93f9">~</tspan> <tspan fill="#50fa7b">❯</tspan> <tspan id="cmd_54" fill="#f8f8f2">whoami</tspan></text><text x="20" y="76" id="out_76" class="code" fill="#f8f8f2">hitesh_agrawal</text><text x="20" y="98" class="code"><tspan fill="#bd93f9">~</tspan> <tspan fill="#50fa7b">❯</tspan> <tspan id="cmd_98" fill="#f8f8f2">uptime</tspan></text><text x="20" y="120" id="out_120" class="code" fill="#f8f8f2">44 years, 1 month, 3 days</text><text x="20" y="142" class="code"><tspan fill="#bd93f9">~</tspan> <tspan fill="#50fa7b">❯</tspan> <tspan id="cmd_142" fill="#f8f8f2">whereis /home/hitesh</tspan></text><text x="20" y="164" id="out_164" class="code" fill="#f8f8f2">/home/hitesh: Ahmedabad, India</text><text x="20" y="186" class="code"><tspan fill="#bd93f9">~</tspan> <tspan fill="#50fa7b">❯</tspan> <tspan id="cmd_186" fill="#f8f8f2">pwd</tspan></text><text x="20" y="208" id="out_208" class="code" fill="#f8f8f2">~/GSR_Markets</text><text x="20" y="230" class="code"><tspan fill="#bd93f9">~</tspan> <tspan fill="#50fa7b">❯</tspan> <tspan id="cmd_230" fill="#f8f8f2">cat /etc/skills.conf</tspan></text><text x="20" y="252" id="out_252" class="code" fill="#f8f8f2"># Core Strengths</text><text x="20" y="274" id="out_274" class="code" fill="#f8f8f2">• Low-latency &amp; deterministic systems</text><text x="20" y="296" id="out_296" class="code" fill="#f8f8f2">• Multi-region HA &amp; disaster recovery</text><text x="20" y="318" id="out_318" class="code" fill="#f8f8f2">• Kubernetes at scale (production)</text><text x="20" y="340" id="out_340" class="code" fill="#f8f8f2">• Observability-first &amp; SLO-driven</text><text x="20" y="362" id="out_362" class="code" fill="#f8f8f2">• Unix/Linux internals &amp; performance</text><text x="20" y="384" class="code"><tspan fill="#bd93f9">~</tspan> <tspan fill="#50fa7b">❯</tspan> <tspan id="cmd_384" fill="#f8f8f2">history | grep &#x27;experience&#x27; | head -n 5</tspan></text><text x="20" y="406" id="out_406" class="code" fill="#f8f8f2">2018-Now: Senior SRE (VP) @ GSR Markets</text><text x="20" y="428" id="out_428" class="code" fill="#f8f8f2">2016-18 : VP - Athena Core @ JP Morgan</text><text x="20" y="450" id="out_450" class="code" fill="#f8f8f2">2014-16 : Sr. Systems Eng @ CME Group</text><text x="20" y="472" id="out_472" class="code" fill="#f8f8f2">2013-14 : Cloud Systems Analyst @ Autodesk</text><text x="20" y="494" id="out_494" class="code" fill="#f8f8f2">2008-13 : Principal Eng / Manager @ Yahoo!</text><text x="20" y="516" class="code"><tspan fill="#bd93f9">~</tspan> <tspan fill="#50fa7b">❯</tspan> <tspan id="cmd_516" fill="#f8f8f2">finger hitesh</tspan></text><text x="20" y="538" id="out_538" class="code" fill="#f8f8f2">Email: hitesha1981@gmail.com,hitesh.o.agrawal@gmail.com</text><text x="20" y="560" id="out_560" class="code" fill="#f8f8f2">telegram: @hitesh_agrawal</text><text x="20" y="582" id="out_582" class="code" fill="#f8f8f2">LinkedIn: https://www.linkedin.com/in/agrawalhitesh/</text><text x="20" y="604" class="code"><tspan fill="#bd93f9">~</tspan> <tspan fill="#50fa7b">❯</tspan> <tspan id="cmd_604" fill="#f8f8f2">date</tspan></text><text x="20" y="626" id="out_626" class="code" fill="#f8f8f2">Tue Jan 06 01:44:55  2026</text><text x="20" y="648" class="code"><tspan fill="#bd93f9">~</tspan> <tspan fill="#50fa7b">❯</tspan> <tspan fill="#f8f8f2" class="cursor">_</tspan></text>
+        <text x="20" y="54" class="code"><tspan fill="#bd93f9">~</tspan> <tspan fill="#50fa7b">❯</tspan> <tspan id="cmd_54" fill="#f8f8f2">whoami</tspan></text><text x="20" y="76" id="out_76" class="code" fill="#f8f8f2">hitesh_agrawal</text><text x="20" y="98" class="code"><tspan fill="#bd93f9">~</tspan> <tspan fill="#50fa7b">❯</tspan> <tspan id="cmd_98" fill="#f8f8f2">uptime</tspan></text><text x="20" y="120" id="out_120" class="code" fill="#f8f8f2">44 years, 1 month, 3 days</text><text x="20" y="142" class="code"><tspan fill="#bd93f9">~</tspan> <tspan fill="#50fa7b">❯</tspan> <tspan id="cmd_142" fill="#f8f8f2">whereis /home/hitesh</tspan></text><text x="20" y="164" id="out_164" class="code" fill="#f8f8f2">/home/hitesh: Ahmedabad, India</text><text x="20" y="186" class="code"><tspan fill="#bd93f9">~</tspan> <tspan fill="#50fa7b">❯</tspan> <tspan id="cmd_186" fill="#f8f8f2">pwd</tspan></text><text x="20" y="208" id="out_208" class="code" fill="#f8f8f2">~/GSR_Markets</text><text x="20" y="230" class="code"><tspan fill="#bd93f9">~</tspan> <tspan fill="#50fa7b">❯</tspan> <tspan id="cmd_230" fill="#f8f8f2">cat /etc/skills.conf</tspan></text><text x="20" y="252" id="out_252" class="code" fill="#f8f8f2"># Core Strengths</text><text x="20" y="274" id="out_274" class="code" fill="#f8f8f2">• Low-latency &amp; deterministic systems</text><text x="20" y="296" id="out_296" class="code" fill="#f8f8f2">• Multi-region HA &amp; disaster recovery</text><text x="20" y="318" id="out_318" class="code" fill="#f8f8f2">• Kubernetes at scale (production)</text><text x="20" y="340" id="out_340" class="code" fill="#f8f8f2">• Observability-first &amp; SLO-driven</text><text x="20" y="362" id="out_362" class="code" fill="#f8f8f2">• Unix/Linux internals &amp; performance</text><text x="20" y="384" class="code"><tspan fill="#bd93f9">~</tspan> <tspan fill="#50fa7b">❯</tspan> <tspan id="cmd_384" fill="#f8f8f2">history | grep -A 5 &#x27;experience&#x27;</tspan></text><text x="20" y="406" id="out_406" class="code" fill="#f8f8f2">2018-Now: Senior SRE (VP) @ GSR Markets</text><text x="20" y="428" id="out_428" class="code" fill="#f8f8f2">2016-18 : VP - Athena Core @ JP Morgan</text><text x="20" y="450" id="out_450" class="code" fill="#f8f8f2">2014-16 : Sr. Systems Eng @ CME Group</text><text x="20" y="472" id="out_472" class="code" fill="#f8f8f2">2013-14 : Cloud Systems Analyst @ Autodesk</text><text x="20" y="494" id="out_494" class="code" fill="#f8f8f2">2008-13 : Principal Eng / Manager @ Yahoo!</text><text x="20" y="516" class="code"><tspan fill="#bd93f9">~</tspan> <tspan fill="#50fa7b">❯</tspan> <tspan id="cmd_516" fill="#f8f8f2">finger hitesh</tspan></text><text x="20" y="538" id="out_538" class="code" fill="#f8f8f2">Email: hitesha1981@gmail.com,hitesh.o.agrawal@gmail.com</text><text x="20" y="560" id="out_560" class="code" fill="#f8f8f2">telegram: @hitesh_agrawal</text><text x="20" y="582" id="out_582" class="code" fill="#f8f8f2">LinkedIn: https://www.linkedin.com/in/agrawalhitesh/</text><text x="20" y="604" class="code"><tspan fill="#bd93f9">~</tspan> <tspan fill="#50fa7b">❯</tspan> <tspan id="cmd_604" fill="#f8f8f2">date</tspan></text><text x="20" y="626" id="out_626" class="code" fill="#f8f8f2">Tue Jan 06 04:45:17  2026</text><text x="20" y="648" class="code"><tspan fill="#bd93f9">~</tspan> <tspan fill="#50fa7b">❯</tspan> <tspan fill="#f8f8f2" class="cursor">_</tspan></text>
     </g>
 </svg>
