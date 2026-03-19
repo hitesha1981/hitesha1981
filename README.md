@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/terminal.svg?v=1773799810" width="800px" alt="Terminal Animation">
+  <img src="assets/terminal.svg?v=1773886275" width="800px" alt="Terminal Animation">
 </p>
 
 <p align="center">
